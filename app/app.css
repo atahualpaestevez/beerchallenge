@@ -1,0 +1,52 @@
+.header{
+	background-color:#F79400;
+	color:#FFFFFF;
+	padding-bottom: 2em;
+}
+.header a{
+	color:#FFFFFF;
+}
+.body{
+	background-color:#F8F8F8;
+}
+.beer-card{
+	background-color: #FFFFFF;
+	margin: 0 0.5% 0 0.5%;
+	padding-bottom: 1em;
+}
+.beer-card:hover{
+	box-shadow:  0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+.beer-name{
+	color:#F79400;
+}
+.tag-line{
+	color:#B9C5D4; 
+}
+.beer-container{
+	padding-top: 4em;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#beer-navbar{
+	background-color:#F79400;
+	overflow: hidden;
+	z-index: 1;
+}
+ 
+#fixed {
+    
+    overflow: auto;
+}
+
+.beer-label{
+	color:#888F97;
+	font-weight: bold;
+}
+.beer-text{
+color:#B8BDBC;
+}

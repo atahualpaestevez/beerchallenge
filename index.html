@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beer Challenge</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.7/angular.min.js"/> 
+	<style type="text/css">
+		.header{
+			background-color:#F79400;
+			color:#FFFFFF;
+			padding-bottom: 2em;
+		}
+		.header a{
+			color:#FFFFFF;
+		}
+		.body{
+			background-color:#F8F8F8;
+		}
+		.beer-card{
+			background-color: #FFFFFF;
+			margin: 0 0.5% 0 0.5%;
+			padding-bottom: 1em;
+		}
+
+		.beer-card a{
+			color:yellow;
+		}
+		.beer-name{
+			color:#F79400;
+		}
+		.tag-line{
+			color:#B9C5D4;
+		}
+		.beer-container{
+			padding-top: 4em;
+		}
+	</style>
+</head>
+<body>
+<!-- HEADER -->
+<div class="container-fluid header">
+	<div class="row justify-content-end">
+		<nav class="navbar navbar-expand-lg ">
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav">
+		    
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">HOME</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">FAVORITE</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</div>
+ 
+	<div class="row">
+		<div class="col-12">
+			<center>
+				<h1>The Beer Bank</h1>	
+			</center>
+		</div>
+		<div class="col-12">
+			<center>
+				<label>Find your favorite beer here</label>
+			</center>
+		</div>
+		<div class="col-4 offset-4">
+				<input type="text" name="search-beer" class="form-control" placeholder="Search for beer name">
+		</div>
+	</div>
+</div>
+<!-- END HEADER -->
+<div class="container-fluid body">
+	<div class="row beer-container  justify-content-center">
+		<div class="col-2 beer-card shadow p-3 mb-5 bg-white rounded">
+			<div class="row justify-content-end">
+				<div class="col-2">
+					<a href="#" onclick="return false;"><i class="far fa-star"></i></a>
+				</div>
+			</div>
+			<center>
+				<div class="col-12">
+						<img src="https://images.punkapi.com/v2/keg.png" height="120">	
+				</div>
+				<div class="col-12">
+					<h5 class="beer-name"> Buzz</h5>	
+				</div>
+				<div class="col-12">
+					<p class="tag-line">A Real Bitter Experience.</p>
+				</div>
+			</center>
+		</div>
+		<div class="col-2 beer-card shadow p-3 mb-5 bg-white rounded">
+			<div class="row justify-content-end">
+				<div class="col-2">
+					<a href="#" onclick="return false;"><i class="far fa-star"></i></a>
+				</div>
+			</div>
+			<center>
+				<div class="col-12">
+						<img src="https://images.punkapi.com/v2/2.png" height="120">	
+				</div>
+				<div class="col-12">
+					<h5 class="beer-name"> Trashy Blonde</h5>	
+				</div>
+				<div class="col-12">
+					<p class="tag-line">You Know You Shouldn't.</p>
+				</div>
+			</center>
+		</div>
+		<div class="col-2 beer-card shadow p-3 mb-5 bg-white rounded">
+			<div class="row justify-content-end">
+				<div class="col-2">
+					<a href="#" onclick="return false;"><i class="fas fa-star"></i></a>
+				</div>
+			</div>
+			<center>
+				<div class="col-12">
+						<img src="https://images.punkapi.com/v2/keg.png" height="120">	
+				</div>
+				<div class="col-12">
+					<h5 class="beer-name"> Buzz</h5>	
+				</div>
+				<div class="col-12">
+					<p class="tag-line">A Real Bitter Experience.</p>
+				</div>
+			</center>
+		</div>
+</div>
+
+</body>
+</html>
